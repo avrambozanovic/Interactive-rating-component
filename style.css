@@ -19,7 +19,8 @@ body{
     flex-flow: column;
     text-align: left;
     margin:250px 750px;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 30px;
     height: 350px;
@@ -27,6 +28,7 @@ body{
 
 .marks{
     display: flex;
+    width: 100%;
 }
 
 h1{
@@ -39,12 +41,13 @@ p{
 }
 
 #submit{
-    background-color: var(--Orange);
+    background-color: hsl(25, 97%, 53%);
     border-radius: 20px;
     color:hsl(0, 0%, 100%); 
     border: none;
     padding: 10px;
     margin-top: 20px;
+    font-size: 20px;
 }
 
 #first{
@@ -53,34 +56,44 @@ p{
     border-radius: 50%;
     border: none;
     color: hsl(217, 12%, 63%);
-    padding: 20px;
-    background-color: var(-- Medium Grey: hsl(216, 12%, 54%))
+    padding: 23px;
+    background-color: hsl(212, 29%, 29%);
 }
 #second{
     margin-right: 15px;
     border-radius: 50%;
     border: none;
     color: hsl(217, 12%, 63%);
-    padding: 20px;
+    padding: 23px;
+    background-color: hsl(212, 29%, 29%);;
 }
 #third{
     margin-right: 15px;
     border-radius: 50%;
     border: none;
     color: hsl(217, 12%, 63%);
-    padding: 20px;
+    padding: 23px;
+    background-color:hsl(212, 29%, 29%); ;
 }
 #forth{
     margin-right: 15px;
     border-radius: 50%;
     border: none;
     color: hsl(217, 12%, 63%);
-    padding: 20px;
+    padding: 23px;
+    background-color: hsl(212, 29%, 29%);;
 }
 #fifth{ 
     border-radius: 50%;
     color: hsl(217, 12%, 63%);
-    padding: 20px;
+    padding: 23px;
     border: none;
+    background-color: hsl(212, 29%, 29%);
 }
+
+#submit:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%); 
+    color:hsl(25, 97%, 53%); 
+} 
 
