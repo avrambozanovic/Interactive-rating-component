@@ -19,8 +19,7 @@ body{
     flex-flow: column;
     text-align: left;
     margin:250px 750px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 22px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 30px;
     height: 350px;
@@ -58,6 +57,8 @@ p{
     color: hsl(217, 12%, 63%);
     padding: 23px;
     background-color: hsl(212, 29%, 29%);
+    font-size: 15px;
+    font-weight: 600;
 }
 #second{
     margin-right: 15px;
@@ -65,7 +66,9 @@ p{
     border: none;
     color: hsl(217, 12%, 63%);
     padding: 23px;
-    background-color: hsl(212, 29%, 29%);;
+    background-color: hsl(212, 29%, 29%);
+    font-size: 15px;
+    font-weight: 600;
 }
 #third{
     margin-right: 15px;
@@ -73,7 +76,9 @@ p{
     border: none;
     color: hsl(217, 12%, 63%);
     padding: 23px;
-    background-color:hsl(212, 29%, 29%); ;
+    background-color:hsl(212, 29%, 29%); 
+    font-size: 15px;
+    font-weight: 600;
 }
 #forth{
     margin-right: 15px;
@@ -81,7 +86,9 @@ p{
     border: none;
     color: hsl(217, 12%, 63%);
     padding: 23px;
-    background-color: hsl(212, 29%, 29%);;
+    background-color: hsl(212, 29%, 29%);
+    font-size: 15px;
+    font-weight: 600;
 }
 #fifth{ 
     border-radius: 50%;
@@ -89,6 +96,8 @@ p{
     padding: 23px;
     border: none;
     background-color: hsl(212, 29%, 29%);
+    font-size: 15px;
+    font-weight: 600;
 }
 
 #submit:hover{
@@ -96,4 +105,32 @@ p{
     background-color: hsl(0, 0%, 100%); 
     color:hsl(25, 97%, 53%); 
 } 
+#first:hover{
+    cursor: pointer;
+    background-color:hsl(25, 97%, 53%) ;
+    color: hsl(0, 0%, 100%); 
+}
+
+#second:hover{
+    cursor: pointer;
+    background-color:hsl(25, 97%, 53%) ;
+    color:  hsl(0, 0%, 100%); 
+}
+#third:hover{
+    cursor: pointer;
+    background-color:hsl(25, 97%, 53%) ;
+    color: hsl(0, 0%, 100%); 
+}
+#forth:hover{
+    cursor: pointer;
+    background-color:hsl(25, 97%, 53%) ;
+    color: hsl(0, 0%, 100%); 
+}
+#fifth:hover{
+    cursor: pointer;
+    background-color:hsl(25, 97%, 53%) ;
+    color:hsl(0, 0%, 100%); 
+}
+
+
 
